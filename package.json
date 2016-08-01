@@ -1,0 +1,49 @@
+{
+  "name": "react-musicplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayho/react-musicplayer.git"
+  },
+  "keywords": [],
+  "author": "Mehul Patel <mehul8@gmail.com> (http://mehul.codes/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mayho/react-musicplayer/issues"
+  },
+  "homepage": "https://github.com/Mayho/react-musicplayer#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.3.0",
+    "exports-loader": "^0.6.3",
+    "imports-loader": "^0.6.5",
+    "jsdom": "^9.2.1",
+    "mocha": "^2.5.3",
+    "react-addons-test-utils": "^15.1.0",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.1",
+    "react-router-redux": "^4.0.5",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0",
+    "soundcloud": "^3.1.2",
+    "whatwg-fetch": "^1.0.0"
+  }
+}
