@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import configStore from './stores/configStore';
 import * as actions from './actions';
-import Stream from './components/Stream';
+import Stream from './components/Stream/';
 
 const tracks = [
   {
-    title: 'Some track'
+    title: 'Can\'t Tell Me Nothing'
   },
   {
-    title: 'Some other track'
+    title: 'Ultralight Beam'
   }
 ];
 
