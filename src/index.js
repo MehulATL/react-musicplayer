@@ -10,17 +10,7 @@ import Callback from './components/Callback';
 import Stream from './components/Stream/';
 import SC from 'soundcloud';
 
-const tracks = [
-  {
-    title: 'Can\'t Tell Me Nothing'
-  },
-  {
-    title: 'Ultralight Beam'
-  }
-];
-
 const store = configStore();
-store.dispatch(actions.setTracks(tracks));
 const history = syncHistoryWithStore(browserHistory, store);
 
 ReactDOM.render(
