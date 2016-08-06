@@ -8,6 +8,7 @@ import * as actions from './actions';
 import App from './components/App';
 import Callback from './components/Callback';
 import Stream from './components/Stream/';
+import SC from 'soundcloud';
 
 const tracks = [
   {
